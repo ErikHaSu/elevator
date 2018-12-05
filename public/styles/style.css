@@ -1,0 +1,94 @@
+body {
+    margin:0;
+}
+#body-background {
+    background-image: linear-gradient(to bottom right, #000000, #242424);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#index-background {
+    background-image: linear-gradient(to bottom right, #000000, #242424);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 50px 0 20px 0;
+}
+
+.elevator-form {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-image: url(../images/white.png);
+    padding: 50px;
+}
+.elevator-form__input {
+    width: 60%;
+    margin-left: 20%;
+}
+.field-wrapper__input {
+    width: 100%;
+    margin-left: 10%;
+}
+input {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1b1b22c9;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+    font-size: 18px;
+}
+.form-button {
+    margin-top: 30px;
+    background-color: #ebd1d1dc;
+    width: 60%;
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+.elevator{
+    width: 100%;
+}
+.grid-container {
+    width: 28%;
+    margin-left: 36%;
+    display: grid;
+    grid-template-columns: auto;
+    color: #ffff;
+    font-weight: 500;
+    background-image: url(../images/geo_purple.jpg);
+    background-repeat: repeat;
+    padding: 10px;
+}
+.grid-container__items {
+    border: 10px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.elevator__results {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    border-color: #000;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right,#ae9e9e, #E2DCDC);
+}
+.results__text {
+    font-size: 30px;
+}
